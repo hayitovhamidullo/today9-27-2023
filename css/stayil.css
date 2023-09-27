@@ -102,7 +102,7 @@ header .container {
 }
 header .container .javascript {
   position: absolute;
-  width: 380px;
+  width: 80%;
   height: auto;
   background: var(--Style, linear-gradient(90deg, #1D98FF 0%, #2961FF 100%));
   left: 50%;
@@ -113,7 +113,6 @@ header .container .javascript {
   text-align: center;
 }
 header .container .javascript h6 {
-  max-width: 400px;
   color: var(--White, #FFF);
   font-family: Work Sans;
   font-size: 25px;
@@ -122,6 +121,7 @@ header .container .javascript h6 {
   line-height: 123.6%;
   text-transform: capitalize;
   margin-top: 60px;
+  text-align: center;
 }
 header .container .javascript .javaScript_download {
   margin-top: 60px;
