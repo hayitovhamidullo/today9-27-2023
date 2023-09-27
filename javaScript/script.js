@@ -3,6 +3,7 @@ var downloadButton = document.querySelector(".Download");
 var javascriptDiv = document.querySelector(".javascript");
 var javaScriptDownloadButton = document.querySelector(".javaScript_download");
 const overlaynam = document.querySelector(".overlay");
+const tozalamoq = document.querySelector(".namber");
 
 const menu = document.querySelector(".aside");
 const menunam = document.querySelector(".bars");
@@ -25,6 +26,11 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+// dowlondagi x 
+tozalamoq.addEventListener("click", function() {
+    javascriptDiv.style.display = "none";
+    overlaynam.style.display = "none"
+});
 
 menunam.addEventListener("click", function() {
     menu.style.display = "block";

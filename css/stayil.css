@@ -65,6 +65,19 @@ body {
   transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
 }
 
+#nam6 {
+  margin-top: 0px;
+}
+
+.namber {
+  display: flex;
+  padding: 10px;
+  width: 98%;
+  justify-content: flex-end;
+  border: none;
+  background: none;
+}
+
 @keyframes mymove {
   from {
     left: 0px;
