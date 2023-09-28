@@ -111,7 +111,7 @@ header .container {
   width: 90%;
   margin: 0 auto;
   padding: 25px 0px 120px 0px;
-  height: 108vh;
+  height: 157vh;
 }
 header .container .javascript {
   position: absolute;
@@ -297,6 +297,7 @@ header .container .mobil_responsivlik .mobil_left_nam .ilovalar {
   header .container {
     width: 80%;
     margin: 0 auto;
+    height: 107vh;
   }
   header .container nav {
     max-width: 770px;
